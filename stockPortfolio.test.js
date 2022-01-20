@@ -75,3 +75,11 @@ test ('2.8 sell too many', () => {
   fun = () => portfolio.sell("GME", 100);
   expect(fun).toThrow(Error);
 });
+
+/* 3. Reflection on TDD
+I was able to follow the test-first approach, going with the res/green cycle.
+Even though I had the strong urge to just write all the funtionality, 
+I resisted and wrote the tests first for each one, for the
+sake of the assignment. However, I did not like it, and I prefer writing
+some functions, then testing the functionalities I was looking for after.
+*/
